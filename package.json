@@ -1,0 +1,17 @@
+{
+	"private": true,
+	"scripts": {
+		"build": "NODE_OPTIONS=--openssl-legacy-provider preact build",
+    "//": "You need to run a build first, as --prerender, even in dev, tries to access build-only resources. It's a bug",
+		"dev": "yarn build && NODE_OPTIONS=--openssl-legacy-provider preact watch --prerender"
+	},
+	"devDependencies": {
+		"preact-cli": "^3.4.2"
+	},
+	"dependencies": {
+    "@preact/prerender-data-provider": "^3.0.1",
+		"preact": "^10.11.3",
+		"preact-render-to-string": "^5.2.6",
+		"preact-router": "^3.2.1"
+	}
+}

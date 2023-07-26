@@ -1,0 +1,17 @@
+[
+	{
+		"url": "/",
+		"title": "Home",
+		"myProp": "Home prop"
+	},
+	{
+		"url": "/route66",
+		"title": "Route66",
+		"myProp": "Route66 prop"
+	},
+	{
+		"url": "/custom",
+		"title": "Custom",
+		"myProp": "Custom prop"
+	}
+]
