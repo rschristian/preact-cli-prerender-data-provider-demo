@@ -1,22 +1,15 @@
-# {{ name }}
+# preact-cli-prerender-data-provider-demo
 
-## CLI Commands
+## Instructions
 
 ```bash
 # install dependencies
-npm install
+yarn
 
 # serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# test the production build locally
-npm run serve
-
-# run tests with jest and enzyme
-npm run test
+yarn dev
 ```
 
-For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
+Then open your browser so `localhost:8080` and check the dev tools console, you should see `/` as the URL.
+
+Finally, open `localhost:8080/custom` in your browser and check the console again, you should see `/custom` as the URL.
